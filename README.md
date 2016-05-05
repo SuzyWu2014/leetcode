@@ -4,4 +4,4 @@ The motivation of this project is to help college students to prepare algorithm 
 
 We welcome any comments on the solutions, code, and discussions of the problems, because this is an open-source cracking technical interview training material.
 
-Let's overcome those interesting algorithm problems!
+Share your ideas and let's overcome them together! Have fun!
