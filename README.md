@@ -1,4 +1,4 @@
-# leetcode
+# Cracking leetcode
 
 The motivation of this project is to help college students to prepare algorithm interviews. The problems discussed and presented are from leetcode.com, which is one of the most popular technical interview training website.
 
