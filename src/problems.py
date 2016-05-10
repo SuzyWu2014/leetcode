@@ -28,6 +28,7 @@ class Solution(object):
     def __init__(self):
         self.result = ""
         self.matrix = [["" for _ in range(1000)] for _ in range(1000)]
+        self.dict = {}
 
     def canCompleteCircuit(self, gas, cost):    # LTE, time is O(n^2)
         """
@@ -2601,6 +2602,27 @@ class Solution(object):
                                          dp[start][lastBalloon] + newnums[start] * newnums[lastBalloon] * newnums[end] +
                                          dp[lastBalloon][end])
         return dp[0][n - 1]
+
+    def isHappy(self, n):  # 44ms
+        """
+        :type n: int
+        :rtype: bool
+        """
+        if n == 0:
+            return False
+        elif n == 1:
+            return True
+        else:
+            if self.dict.has_key(n):  # an endless loop which does not include 1 appears
+                return False
+            else:
+                sum = 0
+                tn = n
+                while tn != 0:
+                    sum += (tn % 10) ** 2
+                    tn = tn / 10
+                self.dict[n] = sum
+                return self.isHappy(sum)
 
 
 

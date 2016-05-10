@@ -243,7 +243,9 @@ if __name__ == "__main__":
     # result = mySolution.maxProfit([3,5,6,2,6,4,3])
 
     # result = mySolution.maxProfit4(3, [3,5,6,2,6,4,3])
-    result = mySolution.maxCoins([3,1,5,8])
+    # result = mySolution.maxCoins([3,1,5,8])
+
+    result = mySolution.isHappy(1111111)
     print result
 
 
