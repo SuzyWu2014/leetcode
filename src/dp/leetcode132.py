@@ -21,8 +21,7 @@ class Solution(object):
                 if i == j or (s[i] == s[j] and i + 1 == j) or (s[i] == s[j] and p[i + 1][j - 1]):
                     p[i][j] = True
                     dp[i] = min(1 + dp[j + 1], dp[i])
-        #return dp[0] - 1, p
-        return dp
+        return dp[0] - 1
 
     def minCut_dp2(self, s):
         """
@@ -44,7 +43,7 @@ class Solution(object):
                     T[i][j] = (s[i] == s[j]) and T[i + 1][j - 1]
 
         cuts = [x for x in xrange(n)]
-        for i in xrange(1, n):
+        for i in xrange(0, n):
             if s[0] == s[i] and (i == 1 or T[1][i - 1] == True):
                 cuts[i] = 0
             else:
@@ -56,8 +55,7 @@ class Solution(object):
                     j += 1
                 if j == i: cuts[i] = 1 + cuts[j - 1]
                 cuts[i] = min(cuts[i], cuts[i - 1] + 1)
-        # return cuts[-1]
-        return cuts
+        return cuts[-1]
 
 
 if __name__ == "__main__":

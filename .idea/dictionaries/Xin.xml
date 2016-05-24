@@ -2,6 +2,8 @@
   <dictionary name="Xin">
     <words>
       <w>maxlength</w>
+      <w>subarray</w>
+      <w>wordlist</w>
     </words>
   </dictionary>
 </component>
