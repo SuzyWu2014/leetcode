@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f54094e0-ab32-454e-b546-cdb988ffe512" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDFS/leetcode104.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDFS/leetcode111.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDFS/leetcode112.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDFS/leetcode113.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDFS/leetcode124.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDFS/leetcode129.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/leetcode104.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/leetcode111.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/leetcode112.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/leetcode113.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/leetcode124.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/leetcode129.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/problems.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__init__.py" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDFS/leetcode113.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/__init__.py" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDFS/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode216.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode216.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode22.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode22.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode37.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode37.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode39.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode39.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode40.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode40.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode51.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode51.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode52.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode52.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode62.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/leetcode62.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode63.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs/leetcode63.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode78.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode78.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode79.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode79.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode90.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode90.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dfs/leetcode93.py" afterPath="$PROJECT_DIR$/src/dfs_backtracking/dfs+backtracking/leetcode93.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dp/leetcode44_DP.py" afterPath="$PROJECT_DIR$/src/dp/leetcode44.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f54094e0-ab32-454e-b546-cdb988ffe512" name="Default" comment="" />
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
