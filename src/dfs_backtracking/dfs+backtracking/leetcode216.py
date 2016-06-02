@@ -14,6 +14,6 @@ class Solution(object):
                 dfs(nums, x+1, k-1, n-nums[x], valuelist+[nums[x]])
 
         res = []
-        nums = [i for i in range(1,10)]
+        nums = [i for i in xrange(1,10)]
         dfs(nums, 0, k, n, [])
         return res

@@ -7,7 +7,7 @@ class Solution(object):
         """
         def check(k, j):
             for i in xrange(k):
-                if board[i] == j or abs(i-k) ==abs(board[i]-j):
+                if board[i] == j or abs(i-k) == abs(board[i]-j):
                     return False
             return True
 
